@@ -9,6 +9,9 @@
   "author": "Rakesh Nair",
   "license": "ISC",
   "dependencies": {
-    "validator": "^13.1.17"
+    "chalk": "^4.1.0",
+    "nodemon": "^2.0.6",
+    "validator": "^13.1.17",
+    "yargs": "^16.1.1"
   }
 }
