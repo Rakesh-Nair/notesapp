@@ -13,10 +13,10 @@ const addNote = (title, body) => {
             body: body
         });
         saveNotes(notes);
-        console.log('Note Added');
+        console.log(chalk.green.inverse('Note Added'));
     }
     else {
-        console.log('Note title ' + title + ' already taken');
+        console.log(chalk.red.inverse('Note title already exists'));
     }
 
 }
